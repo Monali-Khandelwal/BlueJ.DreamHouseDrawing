@@ -21,7 +21,7 @@ public class Square
     public Square()
     {
         size = 30;
-        xPosition = 60;
+        xPosition = 50;
         yPosition = 50;
         color = "red";
         isVisible = false;
@@ -58,7 +58,7 @@ public class Square
      */
     public void moveLeft()
     {
-        moveHorizontal(-20);
+        moveHorizontal(-40);
     }
 
     /**
